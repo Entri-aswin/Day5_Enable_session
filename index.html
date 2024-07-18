@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopify</title>
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body id="light">
+        <header>
+            <div><span class="logo">Shopify</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="cart-wishlist">
+                <img src="images//icons/wishlist.png" alt="" />
+                <img src="images//icons/cart.png" alt="" />
+            </div>
+        </header>
+
+        <main>
+            <section class="section1">
+                <div class="col1">
+                    <img
+                        id="productImage"
+                        src="https://www.lemurianbazaar.com/assets/front_end/modern/img/product-placeholder.jpg"
+                        alt="productIMG"
+                    />
+                </div>
+                <div class="col2">
+                    <h1 id="productTitle" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, suscipit</h1>
+                    <p id="productDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas soluta saepe, assumenda dolorum
+                        voluptatum reiciendis amet cupiditate officia neque incidunt maiores consectetur autem
+                        accusantium modi minus beatae tempora, molestias nihil?
+                    </p>
+                    <h4 class="price">Price: <span id="productPrice">40 $</span></h4>
+                    <div class="btn-container">
+                        <button class="primary-btn">ADD to Cart</button>
+                        <button class="secondary-btn">Buy Now</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-2">
+                <div class="similar-products">
+                    <h2>Similar Products</h2>
+                    <div class="product-list" id="productList">
+                        <article class="product-card">
+                            <div class="img-container">
+                                <img
+                                    src="https://www.lemurianbazaar.com/assets/front_end/modern/img/product-placeholder.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="details">
+                                <h4>My Product Name</h4>
+                                <div class="rating">
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                    <span>&#9733;</span>
+                                    <span>&#9734;</span>
+                                </div>
+                                <div class="price-container">
+                                    <p class="price">$200</p>
+                                    <button class="primary-btn btn-small">Add To Cart</button>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>

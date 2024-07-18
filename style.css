@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button:hover{
+    scale: .98;
+    cursor: pointer;
+}
+
+header {
+    background: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+header .logo {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+ul li a {
+    color: rgba(0, 0, 0, 0.821);
+}
+
+.cart-wishlist img {
+    width: 28px;
+    height: 28px;
+    margin-left: 20px;
+}
+
+main section {
+    padding: 80px 100px 50px;
+}
+
+.section1 {
+    display: flex;
+    /* align-items: center; */
+    gap: 50px;
+    min-height: 540px;
+}
+.col2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2.5;
+}
+
+.section1 .col1 {
+    flex: 1;
+}
+.section1 .col1 img {
+    width: 100%;
+    height: 100%;
+}
+.section1 .col2 h1 {
+    margin: 10px 0 50px;
+    width: 90%;
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.section1 .col2 p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.69);
+    line-height: 24px;
+    max-width: 65%;
+}
+.section1 .col2 .price {
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.section1 .col2 .btn-container {
+    margin-top: auto;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+.primary-btn {
+    padding: 0.6rem 2.6rem;
+    max-width: 200px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.secondary-btn {
+    padding: 0.6rem 2.6rem;
+    max-width: 200px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.679);
+}
+
+/* =============== section2================== */
+.section-2 .similar-products h2 {
+    font-size: 28px;
+}
+
+.product-list {
+    margin: 30px 20px;
+    display: flex;
+    gap: 50px;
+
+    width: 100%;
+    overflow: auto;
+
+    padding: 30px 40px;
+}
+.product-list .product-card {
+        min-width: 200px;
+    max-height: 300px;
+    background-color: whitesmoke;
+    box-shadow: -5px 20px 20px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product-card:hover{
+        cursor: pointer;
+}
+.product-card .img-container{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+.product-list .product-card img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* overflow: hidden; */
+    transition: .5s;
+}
+.product-list .product-card img:hover{
+    scale: 1.05;
+
+}
+
+.product-card .details {
+    padding: 8px 4px;
+}
+.product-card .price-container {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.btn-small {
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+
+
+
+
+
+
+
+
+
+:root #light{
+
+
+--bg-primary:white;
+
+
+}
+
+
+:root #dark{
+
+
+--bg-primary:black;
+
+
+}
