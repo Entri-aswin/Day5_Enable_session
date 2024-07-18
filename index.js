@@ -53,4 +53,4 @@ const fetchProductList = () => {
         .catch((error) => console.log(error));
 };
 
-fetchProductList();
+// fetchProductList();

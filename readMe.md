@@ -1,8 +1,21 @@
-sync and async
+<h1>Enable Session__ Day5</h1>
 
-api with examples
+<h2>Topics Covered</h2>
 
-fetch() practice
-req and res
+<ul>
+    <li>async behaviour of JS</li>
+    <li>API concept</li>
+    <li>fetch</li>
+    <li>DOM Manipulation on Ecommerce application </li>
+</ul>
 
-    .then.catch    ==========   async await
+<br>
+<br>
+<br>
+
+    api used: fake store api
+
+<br><br><br>
+
+
+![design](images/design/image.png)
